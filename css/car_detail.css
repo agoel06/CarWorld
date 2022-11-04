@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.car-img-background{
+    background-color: rgb(17, 17, 17);
+}
+.carousel-item img{
+    max-height: 400px;
+    max-width: 600px;
+}
+.carousel_custom{
+    border-radius: 8px;
+}
+.detail-container {
+    max-width: 750px;
+    padding: 20px ;
+    margin: auto;
+    font-size: large;
+}
+.car-model{
+    font-size: 36px;
+}
+table{
+    margin: 10px 0;
+}
+th,td{
+    font-size: large;
+}
+td{
+    padding: 2px 20px;
+
+}
+.interested-container {
+    text-align: center;
+    float: right;
+}
+
+
+.interested-container i {
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested-text {
+    font-size: 10px;
+}
+
+
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .price {
+        font-size: 18px;
+    }
+}
+
+

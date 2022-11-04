@@ -1,0 +1,34 @@
+.car_card:hover{
+    box-shadow: 0 3px 10px gray;
+}
+/* .interested-container {
+    text-align: center;
+    padding-right: 42px;
+    display: inline-block;
+    position: absolute;
+    left: 60rem;
+    margin-top: 30px;
+} */
+
+.interested-container i,.car-list-interested-container i {
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+.car-list-interested-container i{
+    float: right;
+}
+
+
+
+
+/* No car */
+.no-car-container {
+    margin: 96px auto 144px;
+}
+
+.no-car-container p {
+    font-size: 24px;
+    text-align: center;
+}
+
